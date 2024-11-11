@@ -22,8 +22,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
-  } from "../assets";
+    threejs  } from "../assets";
   
   export const navLinks = [
     {
@@ -42,19 +41,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Fullstack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Devops and CI/CD",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "AI/ML",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Microservices Development",
       icon: creator,
     },
   ];
