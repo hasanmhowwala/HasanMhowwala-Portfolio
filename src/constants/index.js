@@ -1,6 +1,10 @@
 import {
     mobile,
     backend,
+    fullstack,
+    devops,
+    ml,
+    microservices,
     creator,
     web,
     javascript,
@@ -42,19 +46,19 @@ import {
   const services = [
     {
       title: "Fullstack Developer",
-      icon: web,
+      icon: fullstack,
     },
     {
       title: "Devops and CI/CD",
-      icon: mobile,
+      icon: devops,
     },
     {
       title: "AI/ML",
-      icon: backend,
+      icon: ml,
     },
     {
       title: "Microservices Development",
-      icon: creator,
+      icon: microservices,
     },
   ];
   

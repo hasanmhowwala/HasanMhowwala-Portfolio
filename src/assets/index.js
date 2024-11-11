@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import fullstack from "./fullstack.png";
+import devops from "./devops.png";
+import ml from "./ml.png";
+import microservices from "./microservices.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -33,6 +37,10 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  fullstack,
+  devops,
+  ml,
+  microservices,
   creator,
   mobile,
   web,
