@@ -24,6 +24,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.png";
+import ruby from "./tech/ruby.png";
+import perl from "./tech/perl.png";
+import mysql from "./tech/mysql.png";
+import postgresql from "./tech/postgresql.png";
+import php from "./tech/php.png";
+import kubernetes from "./tech/kubernetes.png";
+import aws from "./tech/aws.png";
+import vs from "./tech/vs.png";
+import jupyter from "./tech/jupyter.png";
+import redis from "./tech/redis.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import springboot from "./tech/springboot.png";
+
+
 
 import meta from "./company/meta.png";
 import snitty from "./company/snitty.png";
@@ -33,7 +49,11 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import twitter from "./twitter.png";
 import tripguide from "./tripguide.png";
+import ticket from "./ticket.png";
+import distributed from "./distributed.jpeg"
+
 
 export {
   logo,
@@ -69,4 +89,21 @@ export {
   carrent,
   jobit,
   tripguide,
+  distributed,
+  twitter,
+  ticket,
+  cpp,
+  ruby,
+  perl,
+  mysql,
+  postgresql,
+  php,
+  kubernetes,
+  aws,
+  vs,
+  jupyter,
+  redis,
+  python,
+  java,
+  springboot,
 };

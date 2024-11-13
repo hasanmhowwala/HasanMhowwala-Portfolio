@@ -19,6 +19,20 @@ import {
     git,
     figma,
     docker,
+    cpp,
+    ruby,
+    perl,
+    mysql,
+    postgresql,
+    php,
+    kubernetes,
+    aws,
+    vs,
+    jupyter,
+    redis,
+    python,
+    java,
+    springboot,
     meta,
     starbucks,
     tesla,
@@ -26,7 +40,10 @@ import {
     snitty,
     carrent,
     jobit,
+    twitter,
     tripguide,
+    ticket,
+    distributed,
     threejs  } from "../assets";
   
   export const navLinks = [
@@ -72,6 +89,62 @@ import {
       name: "CSS 3",
       icon: css,
     },
+    // {
+    //   name: "C++",
+    //   icon: cpp,
+    // },
+    // {
+    //   name: "Ruby",
+    //   icon: ruby,
+    // },
+    // {
+    //   name: "Perl",
+    //   icon: perl,
+    // },
+    // {
+    //   name: "MySQL",
+    //   icon: mysql,
+    // },
+    // {
+    //   name: "PostgreSQL",
+    //   icon: postgresql,
+    // },
+    // {
+    //   name: "PHP",
+    //   icon: php,
+    // },
+    // {
+    //   name: "Kubernetes",
+    //   icon: kubernetes,
+    // },
+    // {
+    //   name: "AWS",
+    //   icon: aws,
+    // },
+    // {
+    //   name: "VS Code",
+    //   icon: vs,
+    // },
+    // {
+    //   name: "Jupyter",
+    //   icon: jupyter,
+    // },
+    // {
+    //   name: "Redis",
+    //   icon: redis,
+    // },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
+    // {
+    //   name: "Java",
+    //   icon: java,
+    // },
+    // {
+    //   name: "Springboot",
+    //   icon: springboot,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
@@ -176,67 +249,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Distributed Data Analysis System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built a distributed data analysis system that processes and analyzes large datasets efficiently across multiple nodes. Designed to handle high volumes of data with optimized performance and scalability. The system enables faster insights by leveraging parallel data processing techniques.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Cmake",
           color: "green-text-gradient",
         },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: distributed,
+      source_code_link: "https://github.com/hasanmhowwala/Distributed-Data-Analysis-System",
     },
     {
-      name: "Job IT",
+      name: "Microblogging Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed a social media application inspired by Twitter, allowing users to post updates, follow others, and engage with content through likes and comments. The platform supports real-time updates and scalable user interactions. Designed to provide a seamless and responsive user experience for sharing and discovering content.",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Typescript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
+          name: "Docker",
+          color: "grey-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: twitter,
+      source_code_link: "https://github.com/hasanmhowwala/Twitter-Microblogging-Application",
     },
     {
-      name: "Trip Guide",
+      name: "Movie Ticketing Platform",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Created an online movie ticketing platform that enables users to browse movie listings, select showtimes, and reserve seats seamlessly. The system integrates with payment gateways for secure transactions and provides real-time updates on seat availability. Designed for an intuitive user experience, making ticket booking quick and hassle-free.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "Javascript",
+          color: "yellow-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Kafka",
+          color: "orange-text-gradient",
         },
         {
-          name: "css",
+          name: "Distributed Systems",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ticket,
+      source_code_link: "https://github.com/hasanmhowwala/Movie-Ticketing-Portal",
     },
   ];
   
